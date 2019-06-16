@@ -22,6 +22,7 @@ void error_callback(int error, const char *description) {
 }
 
 void quit(GLFWwindow *window) {
+    cout << "SCORE: " << score << endl;
     glfwDestroyWindow(window);
     glfwTerminate();
     exit(EXIT_SUCCESS);

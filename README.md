@@ -1,16 +1,28 @@
-USAGE
+CONTROLS
+=========
+
+W          -> pitch up
+S          -> pitch down
+D          -> yaw right
+A          -> yaw left
+E          -> roll right
+Q          -> roll left
+SPACE      -> accelerate in the direction facing
+
+1           -> follow cam
+2           -> front cam
+3           -> top view
+4           -> tower view
+5           -> helicopter cam
+mouse       -> move cam in helicopter cam
+scroll      -> zoom in helicopter cam
+
+M           -> missile
+B           -> Bombs
+
+Bonus
 ======
-A and D for toggling between tower view and follow view.
+* Stunts
+* compass/minimap
+* realtime regenerating levels
 
-
-Graphics Boilerplate Code
-=========================
-
-This is boilerplate code for the assignments which might be helpful.
-
-
-License
--------
-The MIT License https://meghprkh.mit-license.org/
-
-Copyright &copy; 2018 Megh Parikh <meghprkh@gmail.com>

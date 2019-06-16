@@ -1,21 +1,23 @@
 #include "main.h"
 
-#ifndef BALL_H
-#define BALL_H
+#ifndef Bar_H
+#define Bar_H
 
 
-class Ball {
+class Bar {
 public:
-    Ball() {}
-    Ball(float x, float y, float z, color_t color);
+    Bar() {}
+    Bar(float x, float y, float z, float cx, float cy, float cz, color_t color, float valMax);
     glm::vec3 position;
     float rotation;
     void draw(glm::mat4 VP);
     void set_position(float x, float y);
     void tick();
     double speed;
+    float ma;
+    glm::vec3 scalar;
 private:
     VAO *object;
 };
 
-#endif // BALL_H
+#endif // Bar_H

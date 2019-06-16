@@ -1,13 +1,13 @@
 #include "main.h"
 
-#ifndef BALL_H
-#define BALL_H
+#ifndef TURRET_H
+#define TURRET_H
 
 
-class Ball {
+class Turret {
 public:
-    Ball() {}
-    Ball(float x, float y, float z, color_t color);
+    Turret() {}
+    Turret(float x, float y, float z, color_t color);
     glm::vec3 position;
     float rotation;
     void draw(glm::mat4 VP);
@@ -18,4 +18,4 @@ private:
     VAO *object;
 };
 
-#endif // BALL_H
+#endif // TURRET_H

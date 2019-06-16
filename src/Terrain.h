@@ -10,10 +10,13 @@
 #include <glm/glm.hpp>
 #include <glm/gtx/transform.hpp>
 #include <glm/gtc/matrix_transform.hpp>
+using namespace std;
 
+struct VAO* GenTerrain(int x, int y, float length, vector<pair<int,int> >& v, int a);
 
-struct VAO* GenTerrain(int x, int y, float length);
+void Draw(struct VAO* obj, glm::mat4 VP);
+bool CheckCollisionGround(float x, float y, float z, float buffer);
+bool checkVissible(glm::vec3 from, glm::vec3 to);
 
-void draw(struct VAO* obj, glm::mat4 VP);
-bool CheckCollision(float x, float y, float z, float buffer);
+extern float stor[900+1][900+1];
 #endif

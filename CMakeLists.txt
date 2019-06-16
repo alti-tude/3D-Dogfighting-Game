@@ -33,4 +33,6 @@ endif()
 
 configure_file(src/Sample_GL.vert Sample_GL.vert COPYONLY)
 configure_file(src/Sample_GL.frag Sample_GL.frag COPYONLY)
+configure_file(src/textured.frag textured.frag COPYONLY)
+configure_file(src/textured.vert textured.vert COPYONLY)
 # configure_file(assets/song.mp3 assets/song.mp3 COPYONLY)

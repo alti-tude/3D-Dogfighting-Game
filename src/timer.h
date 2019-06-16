@@ -9,6 +9,7 @@ public:
     }
     Timer(double interval);
     double interval;
+    int frameCount;
     bool processTick();
 private:
     double prev;
