@@ -1,28 +1,30 @@
 CONTROLS
 =========
+W            -> pitch up  
+S            -> pitch down  
+D            -> yaw right  
+A            -> yaw left  
+E            -> roll right  
+Q            -> roll left  
+SPACE        -> accelerate in the direction facing  
+  
+1             -> follow cam  
+2             -> front cam  
+3             -> top view  
+4             -> tower view  
+5             -> helicopter cam  
+mouse         -> move cam in helicopter cam  
+scroll        -> zoom in helicopter cam  
+  
+M             -> missile  
+N             -> Bombs  
 
-W          -> pitch up
-S          -> pitch down
-D          -> yaw right
-A          -> yaw left
-E          -> roll right
-Q          -> roll left
-SPACE      -> accelerate in the direction facing
+L             -> Loop-the-loop  
+B             -> Barrel roll  
 
-1           -> follow cam
-2           -> front cam
-3           -> top view
-4           -> tower view
-5           -> helicopter cam
-mouse       -> move cam in helicopter cam
-scroll      -> zoom in helicopter cam
-
-M           -> missile
-B           -> Bombs
-
-Bonus
+Special characters  
 ======
-* Stunts
-* compass/minimap
-* realtime regenerating levels
+* 
+* live minimap  
+* realtime regenerating levels  
 
