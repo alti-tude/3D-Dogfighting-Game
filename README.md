@@ -1,5 +1,10 @@
-CONTROLS
-=========
+# INSTALL AND RUN
+```bash
+sudo chmod a+x run.sh
+./run.sh
+```
+
+# CONTROLS
 W            -> pitch up  
 S            -> pitch down  
 D            -> yaw right  
@@ -22,9 +27,10 @@ N             -> Bombs
 L             -> Loop-the-loop  
 B             -> Barrel roll  
 
-Special characters  
-======
-* 
+# SCREEN SHOTS
+
+
+# FEATURE HIGHLIGHT
 * live minimap  
 * realtime regenerating levels  
 
