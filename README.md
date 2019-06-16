@@ -1,8 +1,10 @@
 # INSTALL AND RUN
 ```bash
+sudo apt install libglew-dev libglfw3-dev libglm-dev cmake pkg-config
 sudo chmod a+x run.sh
 ./run.sh
 ```
+
 # FEATURE HIGHLIGHT
 * live minimap  
 * realtime regenerating levels  
