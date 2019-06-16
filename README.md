@@ -3,6 +3,14 @@
 sudo chmod a+x run.sh
 ./run.sh
 ```
+# FEATURE HIGHLIGHT
+* live minimap  
+* realtime regenerating levels  
+
+# SCREEN SHOTS
+![](./screen-shots/1.png)
+![](./screen-shots/2.png)
+
 
 # CONTROLS
 W            -> pitch up  
@@ -26,11 +34,3 @@ N             -> Bombs
 
 L             -> Loop-the-loop  
 B             -> Barrel roll  
-
-# SCREEN SHOTS
-
-
-# FEATURE HIGHLIGHT
-* live minimap  
-* realtime regenerating levels  
-
